@@ -6,6 +6,7 @@ categories: rust
 ---
 
 Want to type up a hex number? prefix it with 0x.
-> let x = 0xFFFF;
+
+`> let x = 0xFFFF;`
 
 

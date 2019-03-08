@@ -6,9 +6,11 @@ categories: git
 ---
 
 Restore a file in a git repo to a previous version:
-> git checkout <commit hash> path/to/file
 
-Get <commit hash> using:
-> git log
+`> git checkout <commit hash> path/to/file`
+
+Get \<commit hash\> using:
+
+`> git log`
 
 

@@ -6,14 +6,17 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Neaves, like on a tree of knowledge
+title: Nyan, programming quickies
 email:
 description: > # this means to ignore newlines until "baseurl:"
         Here, you can find posted, quickies of learnings, links, information, commands, code, etc.
-baseurl: "/neaves" # the subpath of your site, e.g. /blog
+baseurl: "/nyan" # the subpath of your site, e.g. /blog
 url: "https://amol9.github.io" # the base hostname & protocol for your site
 twitter_username:
 github_username: amol9
 
 # Build settings
-markdown: kramdown
+kramdown:
+ syntax_highlighter: rouge
+ syntax_highlighter_opts:
+  css_class: 'highlight'

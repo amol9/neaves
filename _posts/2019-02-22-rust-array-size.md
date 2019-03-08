@@ -7,7 +7,8 @@ categories: rust
 
 Declare an array of size specified by another variable. Actually, you can't, it has to be a constant.
 
-> const n: usize = 50;
-> let a: [i32; n];
+`> const n: usize = 50;`
+
+`> let a: [i32; n];`
 
 
